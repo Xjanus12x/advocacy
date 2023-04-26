@@ -1,0 +1,12 @@
+.donors {
+    min-height: 50vh;
+    min-height: 50dvh;
+    background-image: url(../../assets/backgrounds/donors-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    place-content: center;
+}
+.donors h6 {
+    font-size: 3rem;
+}

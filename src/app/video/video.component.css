@@ -1,0 +1,32 @@
+.video-background {
+  position: relative;
+  overflow: hidden;
+}
+video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  z-index: 1;
+  place-items: center;
+  gap: 1.2rem;
+}
+
+.content h1 {
+  max-width: 15ch;
+  font-size: 5rem;
+  text-align: center;
+  font-weight: var(--fw-bold);
+  line-height: 1;
+  font-style: italic;
+}
